@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ubicación | Ferretería LAFISE Empresas</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    body {
+      background: linear-gradient(-45deg, #b73a74, #3fb57a, #188321, #009688);
+      background-size: 400% 400%;
+      animation: movimientoFondo 10s ease infinite;
+      color: #fff;
+      padding: 2rem;
+    }
+    @keyframes movimientoFondo {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    .ubicacion-container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: rgba(70, 18, 18, 0.1);
+      padding: 2rem;
+      border-radius: 12px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 12px rgba(19, 82, 45, 0.3);
+    }
+    h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(16, 126, 25, 0.2);
+      margin-bottom: 2rem;
+    }
+    .info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      text-align: center;
+    }
+    .info div {
+      background: rgba(16, 110, 87, 0.15);
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(9, 58, 17, 0.2);
+    }
+    .info h4 {
+      margin-bottom: 0.5rem;
+      color: #13ff5a;
+    }
+  </style>
+</head>
+<body>
+  <section class="ubicacion-container">
+    <h2>📍 Nuestra Ubicación</h2>
+    <p>LAFISE Encuéntranos fácilmente en Costa Rica. Estamos listos para atender a tu empresa.</p>
+
+    <iframe src="https://www.bing.com/maps?mepi=0%7EFinancialServices%7EEmbedded%7EEntity_Vertical_List_Card_Chat&ty=17&q=banco+lafise+costa+rica&ppois=9.909576416015625_-84.05406188964844_Banco+LAFISE_YN8042x15276535443392990309%7E9.932926177978516_-84.1287612915039_Banco+Lafise_YN8042x16806256687837299039%7E9.931914329528809_-84.0489730834961_Banco+LAFISE_YN8042x11307265338524243101%7E9.921896934509277_-84.0406494140625_LAFISE_YN8042x12713948446088485978%7E&poicount=18&sei=0&cp=9.949613%7E-84.139317&child=%26ty%3D18%26q%3DBanco%2520LAFISE%26ss%3Dypid.YN8042x15276535443392990309%26ppois%3D9.909576416015625_-84.05406188964844_Banco%2520LAFISE_YN8042x15276535443392990309%7E%26cp%3D9.909576%7E-84.054062%26EnableMapViewChange%3Dtrue&FORM=MPSRPL&lvl=15.1" allowfullscreen="" loading="lazy"></iframe>
+
+    <div class="info">
+      <div>
+        <h4>🕒 Horarios</h4>
+        <p>Lunes a Viernes: 8:00 am - 6:00 pm<br>Sábado: 8:00 am - 2:00 pm</p>
+      </div>
+      <div>
+        <h4>📞 Teléfono</h4>
+        <p><a href="tel:+50370001234" style="color:#7bff46; text-decoration: underline;">+506 7000-1234</a></p>
+      </div>
+      <div>
+        <h4>📧 Correo</h4>
+        <p><a href="mailto:info@cuscatlanempresaszazessv.shop" style="color:#fff; text-decoration: underline;">info@lafiseferreteria.com</a></p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
